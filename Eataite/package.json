@@ -1,0 +1,28 @@
+{
+  "name": "slack-imageorder",
+  "version": "1.0.0",
+  "description": "Would you like to take a picture and place your food order? Just type /imageorder slash command! ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nf start"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "slack-bot",
+    "bot",
+    "imageorder"
+  ],
+  "author": "Eataite",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "foreman": "^2.0.0",
+    "request": "^2.75.0"
+  }
+}
+
+<!--
+//https://tutorials.botsfloor.com/creating-a-slack-command-bot-from-scratch-with-node-js-distribute-it-25cf81f51040
+-->
